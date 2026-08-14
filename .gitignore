@@ -1,0 +1,26 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / temporary files
+*.swp
+*.swo
+*~
+.idea/
+
+# Python artifacts (for future optional scripts)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python environments
+.venv/
+venv/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
